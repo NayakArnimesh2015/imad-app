@@ -18,5 +18,5 @@ button.onclick = function () {
     };
     //make the request
     request.open('GET','http://http://nayakarnimesh2015.imad.hasura-app.io/counter',true);
-    request.send();
+    request.send(null);
 };
