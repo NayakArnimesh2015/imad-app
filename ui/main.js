@@ -12,6 +12,6 @@ element.innerHTML='NEW VALUE';
      img.style.marginLeft = marginleft + 'px';
  }
  img.onclick = function() {
-     var interval = setInterval(moveRight ,100)
+     var interval = setInterval(moveRight ,100);
      
  };
